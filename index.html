@@ -25,6 +25,45 @@
 <TD ID="clevel" ALIGN="right"></TD>
 </TR>
 
+<DIV ID="cpanel" CLASS="csspanel">
+<TABLE>
+<TR><TD>
+
+<FIELDSET CLASS="cssfield" STYLE="width:320px">
+<LEGEND>Speed</LEGEND>
+<TABLE CLASS="cssfield" STYLE="width:320px">
+<TR><TD ALIGN="right"><INPUT TYPE="radio" ID="vel0" NAME="vel" VALUE="0" /></TD><TD ALIGN="left" onclick="change('vel0')">1</TD></TR>
+<TR><TD ALIGN="right"><INPUT TYPE="radio" ID="vel1" NAME="vel" VALUE="1" /></TD><TD ALIGN="left" onclick="change('vel1')">2</TD></TR>
+<TR><TD ALIGN="right"><INPUT TYPE="radio" ID="vel2" NAME="vel" VALUE="2" /></TD><TD ALIGN="left" onclick="change('vel2')">3</TD></TR>
+</TABLE>
+</FIELDSET>
+
+</TD></TR>
+
+<TR><TD>
+<BR />
+
+<FIELDSET CLASS="cssfield" STYLE="width:320px">
+<LEGEND>Difficulty</LEGEND>
+<TABLE CLASS="cssfield" STYLE="width:320px">
+<TR><TD ALIGN="right"><INPUT TYPE="radio" ID="hard1" NAME="hrd" VALUE="0" /></TD><TD ALIGN="left" onclick="change('hard1')">easy</TD></TR>
+<TR><TD ALIGN="right"><INPUT TYPE="radio" ID="hard2" NAME="hrd" VALUE="1" /></TD><TD ALIGN="left" onclick="change('hard2')">hard</TD></TR>
+</TABLE>
+</FIELDSET>
+
+</TD></TR>
+</TABLE>
+<BR />
+
+<TABLE STYLE="width:100%">
+<TR>
+<TD ALIGN="right"><BUTTON ID="configOK" CLASS="cssops" onclick="config_good()">confirm</BUTTON></TD>
+<TD ALIGN="left"><BUTTON ID="configNO" CLASS="cssops" onclick="config_cancel()">cancel</BUTTON></TD>
+</TR>
+</TABLE>
+
+</DIV>	
+	
 <IMG ID="user" SRC="image/user.png" STYLE="position:absolute;left:0px;top:0px;visibility:hidden" />
 <IMG ID="aliens" SRC="image/aliens.png" STYLE="position:absolute;left:0px;top:0px;visibility:hidden" />
 <IMG ID="floor" SRC="image/floor.jpg" STYLE="position:absolute;left:0px;top:0px;visibility:hidden" />
